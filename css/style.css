@@ -1,0 +1,455 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 100%;
+}
+
+/* header */
+.header {
+    height: 70px;
+    padding: 24px 48px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 2px 8px rgba(20, 20, 20, 0.12);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header左側 */
+.header-menu {
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    height: 100%;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+.header-menu-list {
+    margin: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.header-menu-item {
+    height: 100%;
+}
+
+.header-menu-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #C03A2B;
+    letter-spacing: 1px;
+}
+
+/* header右側 */
+.header-link {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.link-location i {
+    margin-right: 8px;
+}
+
+.link-menu {
+    display: none;
+}
+
+/* 網頁內容 */
+.wrapper {
+    background-color: #FBFBFB;
+}
+
+.container {
+    width: 95%;
+    margin: 48px auto 48px auto;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #7C7C7C;
+}
+
+.section {
+    padding: 36px 0 36px 0;
+    margin-bottom: 24px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section-img {
+    width: 50%;
+    margin: 0 24px 0 24px;
+}
+
+.section-img img {
+    width: 100%;
+    border-radius: 8px;
+    filter: drop-shadow(2px 2px 8px rgba(20, 20, 20, 0.12));
+}
+
+.section-textarea {
+    width: 40%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.section-top {
+    background-color: #FFE4C6;
+}
+
+.section-top>.section-textarea>.title,
+.section-top>.section-textarea>.paragraph>.text {
+    color: #603E26;
+}
+
+.section-mid {
+    background-color: #F7D8D5;
+}
+
+.section-mid>.section-textarea>.title,
+.section-mid>.section-textarea>.text {
+    color: #C03A2B;
+}
+
+.section-mid>.section-textarea>.btn-secondary {
+    background-color: transparent;
+}
+
+.section-btm {
+    background-color: #805333;
+}
+
+.section-btm>.section-textarea>.title,
+.section-btm>.section-textarea>.text {
+    color: #FBFBFB;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-content-top {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer-content-menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-content-link {
+    text-decoration: none;
+    color: #7C7C7C;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.footer-content-link-down {
+    color: #141414;
+    display: none;
+}
+
+.footer-content-btm {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-info p {
+    color: #141414;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.footer-content-icon {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-content-icon img {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.footer-copyright {
+    height: 40px;
+    background-color: #C03A2B;
+    text-align: center;
+}
+
+.footer-copyright p {
+    color: #FBFBFB;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+/* button設定 */
+.btn {
+    padding: 8px 18px;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    border: 1px solid #C03A2B;
+    background-color: #C03A2B;
+    color: #FBFBFB;
+}
+
+.btn-secondary {
+    border: 1px solid #C03A2B;
+    color: #C03A2B;
+    background-color: #FBFBFB;
+}
+
+.btn-brown {
+    border: 1px solid #603E26;
+    color: #603E26;
+    background-color: transparent;
+}
+
+.btn-white {
+    border: 1px solid #FBFBFB;
+    color: #FBFBFB;
+    background-color: transparent;
+}
+
+/* 文字設定 */
+.title {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+    color: #141414;
+}
+
+.text {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+}
+
+/* RWD */
+@media(max-width: 1284px) {
+    .text {
+        display: inline;
+    }
+}
+
+@media(max-width: 1126px) {
+    .title {
+        display: inline;
+    }
+}
+
+@media(max-width: 1080px) {
+
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    .footer-content-top {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #C7C7C7;
+        padding-bottom: 24px;
+    }
+
+    .footer-content-menu {
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-content-link {
+        display: none;
+    }
+
+    .footer-content-link-down {
+        display: block;
+    }
+}
+
+@media(max-width: 890px) {
+    .header-link {
+        display: none;
+    }
+
+    .link-menu {
+        display: block;
+    }
+
+    .section-top,
+    .section-btm {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-mid {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-img {
+        margin: 0;
+        margin-bottom: 36px;
+        width: 90%;
+    }
+
+    .section-textarea {
+        width: 80%;
+    }
+
+    .footer-content-btm {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 36px;
+    }
+}
+
+@media(max-width: 498px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 12px 24px;
+    }
+
+    .header-menu-list {
+        padding-left: 8px;
+        gap: 12px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .section-img {
+        width: 90%;
+    }
+
+    .section-textarea {
+        width: 90%;
+    }
+}
